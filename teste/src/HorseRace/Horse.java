@@ -16,7 +16,7 @@ public class Horse extends Thread{
 
 	public void run() {
 		for (int i = value; i > 0; i--) {
-			
+			System.out.println("lol e cenas e tal");
 			try {
 				value--;
 				horse.setText(value+"");
